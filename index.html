@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scanXpert AI</title>
+    <link rel="stylesheet" href='style.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="menu-button">
+        <button onclick="toggleMenu()">☰ Menu</button>
+    </div>
+    <div class="container">
+        <div class="image-container">
+            <img src='chest_xray_machine.png' alt="Chest X-ray Machine">
+        </div>
+        <div class="info-container">
+            <h1>scanXpert AI</h1>
+            <p>Comprehensive Medical Imaging Report Generator</p>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <input type="file" name="xray" accept="image/png">
+                <button type="submit">Upload X-ray</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        function toggleMenu() {
+            alert('Menu button clicked!');
+        }
+    </script>
+</body>
+</html>

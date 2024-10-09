@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif,;
+    background: linear-gradient(to bottom, #185680 50%, #eaedee 50%);
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.menu-button button {
+    background-color: #f7fafd;
+    color: rgb(7, 8, 15);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.menu-button button:hover {
+    background-color: #3c5f83;
+}
+
+.container {
+    background-color: #cce1f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.info-container h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 46px;
+    margin-bottom: 10px;
+}
+
+.info-container p {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #1e2327;
+}
+
+form input[type="file"] {
+    margin-bottom: 20px;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #3084df;
+}
